@@ -133,5 +133,4 @@ cdn () {
 	cd "$1"
 }
 
-
-alias config='/usr/bin/git --git-dir=/home/saugustu/.cfg/ --work-tree=/home/saugustu'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
