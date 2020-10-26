@@ -63,6 +63,10 @@ syntax on
 " Disable the default Vim startup message.
 set shortmess+=I
 
+" Enable mouse support. You should avoid relying on this too much, but it can
+" sometimes be convenient.
+set mouse+=a
+
 " Show line numbers.
 set number
 
