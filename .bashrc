@@ -134,3 +134,7 @@ cdn () {
 }
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+
+export USER=saugustu
+export MAIL=marvin@42.fr
