@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ctags="`brew --prefix`/bin/ctags"
 
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 export EDITOR='vim'
 
 cdn () {
@@ -109,3 +110,6 @@ cdn () {
 }
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Load Homebrew config script
+source $HOME/.brewconfig.zsh
