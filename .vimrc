@@ -124,9 +124,6 @@ inoremap "" ""
 inoremap ' ''<left>
 inoremap '' ''
 
-inoremap [ []<left>
-inoremap [] []
-
 "подсвечивает синим строку, если та будет превышать 80 знаков
 highlight MoreThan80 ctermbg=blue guibg=blue
 :2match MoreThan80 /\%81v.\+/
