@@ -143,7 +143,10 @@ map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 
 
-let mapleader = ","
+let mapleader = " "
 
 " Edit .vimrc
 map <leader>rc :vs $MYVIMRC<CR>
+
+map <leader>c :w !pbcopy<CR><CR>
+map <leader>v :r !pbpaste<CR>
