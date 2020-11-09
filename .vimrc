@@ -150,3 +150,5 @@ map <leader>rc :vs $MYVIMRC<CR>
 
 map <leader>c :w !pbcopy<CR><CR>
 map <leader>v :r !pbpaste<CR>
+
+set cursorline
