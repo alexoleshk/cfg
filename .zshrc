@@ -113,3 +113,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Load Homebrew config script
 source $HOME/.brewconfig.zsh
+
+alias norm='/Users/saugustu/.scripts/colorised_norm.sh'
