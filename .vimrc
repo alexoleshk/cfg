@@ -27,7 +27,7 @@ set wildmenu
 " TAG JUMPING:
 
 " Create the `tags` file (may need to install ctags first)
-command! MakeTags !ctags -R .
+command! Maketags !ctags -R .
 
 " NOW WE CAN:
 " - Use ^] to jump to tag under cursor
@@ -150,5 +150,7 @@ map <leader>rc :e $MYVIMRC<CR>
 
 map <leader>c :w !pbcopy<CR><CR>
 map <leader>v :r !pbpaste<CR>
+
+map <leader>h :Stdheader<CR>
 
 set cursorline
